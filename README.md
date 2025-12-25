@@ -175,18 +175,15 @@ The frontend will be available at `http://localhost:3000`
 
 **GitHub Repository:** https://github.com/sdrdray/BEYONDCHATS-SUBHRADIP-SUBMISSION
 
-**Frontend (Vercel):** [Deploy to Vercel first, then add URL here]
+**Frontend (Netlify):** https://beyondchats-subhradip.netlify.app/
 
-**Backend API (Railway):** [Deploy to Railway first, then add URL here]
+**Backend API (Railway):** https://beyondchats-subhradip-submission-production.up.railway.app/
 
-### After Deployment
+### Testing the Live Application
 
-Once you deploy to Railway and Vercel, update these links above and run:
-```bash
-git add README.md
-git commit -m "Add live deployment links"
-git push
-```
+- Visit the frontend URL to view and interact with articles
+- API endpoints are available at the backend URL (e.g., `/api/articles`)
+- The system automatically scrapes articles from beyondchats.com
 
 ## Development Notes
 
