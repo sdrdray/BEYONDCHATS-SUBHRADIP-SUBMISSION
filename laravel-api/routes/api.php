@@ -4,6 +4,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 
+// Health check route (no database needed)
+Route::get('/health', function () {
+    return response()->json(['status' => 'ok', 'message' => 'API is running']);
+});
+
 Route::middleware('api')->group(function () {
     // Articles CRUD routes
     Route::get('/articles', [ArticleController::class, 'index']);
