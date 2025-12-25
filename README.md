@@ -173,9 +173,20 @@ The frontend will be available at `http://localhost:3000`
 
 ## Live Demo
 
-**Frontend URL:** [To be deployed]
+**GitHub Repository:** https://github.com/sdrdray/BEYONDCHATS-SUBHRADIP-SUBMISSION
 
-**Note:** The live link will be added once the application is deployed to a hosting service.
+**Frontend (Vercel):** [Deploy to Vercel first, then add URL here]
+
+**Backend API (Railway):** [Deploy to Railway first, then add URL here]
+
+### After Deployment
+
+Once you deploy to Railway and Vercel, update these links above and run:
+```bash
+git add README.md
+git commit -m "Add live deployment links"
+git push
+```
 
 ## Development Notes
 
