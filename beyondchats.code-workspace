@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "📁 Root",
+      "path": "."
+    },
+    {
+      "name": "🔧 Laravel API",
+      "path": "laravel-api"
+    },
+    {
+      "name": "⚡ Node.js Enhancer",
+      "path": "nodejs-enhancer"
+    },
+    {
+      "name": "⚛️ React Frontend",
+      "path": "react-frontend"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/vendor": true,
+      "**/.git": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/vendor": true,
+      "**/build": true
+    }
+  }
+}

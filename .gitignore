@@ -1,0 +1,18 @@
+/.vscode/
+*.log
+.DS_Store
+
+# Laravel
+laravel-api/vendor/
+laravel-api/.env
+laravel-api/storage/*.key
+laravel-api/.phpunit.cache
+
+# Node.js
+nodejs-enhancer/node_modules/
+nodejs-enhancer/.env
+
+# React
+react-frontend/node_modules/
+react-frontend/build/
+react-frontend/.env.local
