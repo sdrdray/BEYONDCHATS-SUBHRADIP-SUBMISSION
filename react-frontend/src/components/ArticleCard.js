@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 
 const ArticleCard = ({ article, onClick }) => {
   const isEnhanced = article.is_updated;

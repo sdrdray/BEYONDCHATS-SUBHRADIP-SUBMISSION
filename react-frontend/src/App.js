@@ -17,7 +17,13 @@ function App() {
   }, []);
 
   useEffect(() => {
-    filterArticles();
+    if (filter === 'all') {
+      setFilteredArticles(articles);
+    } else if (filter === 'original') {
+      setFilteredArticles(articles.filter(article => !article.is_updated));
+    } else if (filter === 'enhanced') {
+      setFilteredArticles(articles.filter(article => article.is_updated));
+    }
   }, [articles, filter]);
 
   const fetchArticles = async () => {
@@ -39,15 +45,7 @@ function App() {
     }
   };
 
-  const filterArticles = () => {
-    if (filter === 'all') {
-      setFilteredArticles(articles);
-    } else if (filter === 'original') {
-      setFilteredArticles(articles.filter(article => !article.is_updated));
-    } else if (filter === 'enhanced') {
-      setFilteredArticles(articles.filter(article => article.is_updated));
-    }
-  };
+
 
   const handleArticleClick = (article) => {
     setSelectedArticle(article);
